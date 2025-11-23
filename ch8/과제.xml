@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:padding="2dp"
+        android:background="#000000">
+        
+    </GridLayout>
+
+
+</LinearLayout>
